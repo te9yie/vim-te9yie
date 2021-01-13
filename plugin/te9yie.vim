@@ -10,3 +10,5 @@ set statusline=%f\ %<%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'.(&bomb?'[
 let mapleader="\<Space>"
 
 colorscheme desert
+
+autocmd! QuickFixCmdPost *grep* cwindow
