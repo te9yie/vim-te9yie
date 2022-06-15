@@ -2,6 +2,9 @@ set nobackup
 set noswapfile
 set noundofile
 
+set ignorecase
+set smartcase
+
 set textwidth=0
 set wildmode=longest:full
 
