@@ -12,10 +12,6 @@ set statusline=%f\ %<%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'.(&bomb?'[
 
 let mapleader="\<Space>"
 
-if has('win32')
-    set rop=type:directx
-endif
-
 colorscheme desert
 
 autocmd! QuickFixCmdPost *grep* cwindow
