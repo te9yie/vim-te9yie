@@ -11,6 +11,7 @@ set wildmode=longest:full
 set statusline=%f\ %<%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'.(&bomb?'[B]':'')}%=%l,%c%V:%3p%%
 
 let mapleader="\<Space>"
+let maplocalleader="\<Space>"
 
 colorscheme desert
 
