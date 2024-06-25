@@ -16,3 +16,7 @@ let maplocalleader="\<Space>"
 colorscheme desert
 
 autocmd! QuickFixCmdPost *grep* cwindow
+
+if has("win32")
+  set rop=type:directx
+endif
