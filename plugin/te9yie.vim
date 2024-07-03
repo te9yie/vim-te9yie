@@ -7,7 +7,6 @@ set smartcase
 
 set textwidth=0
 set wildmode=longest:full
-set ambiwidth=double
 
 set statusline=%f\ %<%m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'.(&bomb?'[B]':'')}%=%l,%c%V:%3p%%
 
